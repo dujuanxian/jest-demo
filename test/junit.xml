@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="1" time="1.145">
+  <testsuite name="test/minus.test.js" errors="0" failures="1" skipped="0" timestamp="2019-05-06T09:35:13" time="0.465" tests="1">
+    <testcase classname=" minus" name=" minus" time="0.006">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 2
+Received: 1
+    at Object.toEqual (/Users/jdu/Documents/twc/react/jest-demo/test/minus.test.js:4:22)
+    at Object.asyncJestTest (/Users/jdu/Documents/twc/react/jest-demo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/jdu/Documents/twc/react/jest-demo/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jdu/Documents/twc/react/jest-demo/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/jdu/Documents/twc/react/jest-demo/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="test/sum.test.js" errors="0" failures="0" skipped="0" timestamp="2019-05-06T09:35:13" time="0.084" tests="1">
+    <testcase classname=" sum" name=" sum" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/sum2.test.js" errors="0" failures="0" skipped="0" timestamp="2019-05-06T09:35:13" time="0.085" tests="1">
+    <testcase classname=" sum 2" name=" sum 2" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
