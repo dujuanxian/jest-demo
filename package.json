@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:log": "jest --json --outputFile=test.log"
   },
   "devDependencies": {
     "jest": "^24.8.0",
